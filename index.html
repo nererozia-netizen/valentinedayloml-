@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valentine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- VIDEO BACKGROUND -->
+  <video id="bg-video" autoplay muted loop playsinline>
+    <source src="bg.mp4" type="video/mp4" />
+  </video>
+
+  <!-- DARK OVERLAY -->
+  <div class="overlay"></div>
+
+  <!-- CONTENT -->
+  <main class="container">
+    <div class="wrapper" aria-label="Envelope">
+      <div class="lid one"></div>
+      <div class="lid two"></div>
+      <div class="envelope"></div>
+
+      <div class="letter">
+        <p>
+          happy valentine's daddy,<br>
+          I'm blessed you come into my life,<br>
+          i love you!
+        </p>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button id="openBtn">Open</button>
+      <button id="closeBtn" style="display:none;">Close</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
